@@ -1,3 +1,5 @@
 # geeksforGeeks repository for all practice codes
 
-some changes 
+#helloe this is a change i am making
+
+hello vscode commiting

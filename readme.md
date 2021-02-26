@@ -1,3 +1,3 @@
-# geeksforGeeks repository for all practice codes
+# Repository for programming exercises and practice questions from platforms like geeksforgeeks,hackerrank etc
 
 

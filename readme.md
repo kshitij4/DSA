@@ -1,3 +1,2 @@
-# Repository for programming exercises and practice questions from platforms like geeksforgeeks,hackerrank etc
-
-
+# Repository for programming exercises
+Programming practice and exercises questions.

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool isPalindrome(string str,int start,int end)
+bool isPalindrome(string &str,int start,int end)
 {
     if(start>=end)
         return true;

@@ -2,21 +2,18 @@
 
 using namespace std;
 
-bool isPalindrome(string s,int i,int j,int n)
+bool isPalindrome(string str,int start,int end)
 {
-    if(n<=1)
+    if(start>=end)
         return true;
-    if(s[i] == s[j-1])
-        return isPalindrome(s,i+1,j-1,n-2);
-    else
-        return false;
+    return (str[start] == str[end]) && isPalindrome(str,start+1,end-1);
 }
 
 int main()
 {
     string str;
     cin >> str;
-    bool p = isPalindrome(str,0,str.length(),str.length());
+    bool p = isPalindrome(str,0,str.length()-1);
     if(p)
         cout<< "String is palindrome";
     else

@@ -14,6 +14,6 @@ int main()
     int x;
     cin>>x;
     int fact = factorial(x);
-    
     cout<<fact;
+    return 0;
 }

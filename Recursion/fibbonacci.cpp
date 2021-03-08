@@ -16,4 +16,5 @@ int main()
     cin>>x;
     int f =fibb(x);
     cout<<f;
+    return 0;
 }

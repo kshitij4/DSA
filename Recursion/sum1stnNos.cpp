@@ -15,4 +15,5 @@ int main()
     cin>>n;
     int sum = sum1stN(n);
     cout<<sum;
+    return 0;
 }

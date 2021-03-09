@@ -6,8 +6,8 @@ using namespace std;
 
 void  getPowerSet(string s)
 {
-    int len=s.length();
-    int n = pow(2,len);
+    int len=s.length(); // len=3
+    int n = pow(2,len); // n=8
   
     for(int i=0;i<n;i++)
     {

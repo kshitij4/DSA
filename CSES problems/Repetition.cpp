@@ -8,7 +8,7 @@ int main()
     cin>> dna;
     int Maxlen = 1;
     int len = 1;
-    for(int i=1;i<dna.size();i++)
+    for(unsigned int i=1;i<dna.size();i++)
     {
         if(dna[i-1]==dna[i])
             len++;

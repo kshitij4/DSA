@@ -1,20 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int  del(int a[],int x,int n)
+int  del(int a[],int n,int x)
 {
-    int idx;
-    for(int i=0;i<n;i++)
+    int i;
+    for(i=0;i<n;i++)
     {
         if(a[i]==x)
-        {    
-            idx = i;
-            break;
-        }
+            break;        
     }
-    for(int i=idx;i<n;i++)
+    if(i==n)
+        return n;
+    for(int j=i;j<n;j++)
     {
-        a[i]=a[i+1];
+        a[j]=a[j+1];
     }
     return n-1;
 }
@@ -26,10 +25,9 @@ int main()
     int arr[100];
     for(int i=0;i<n;i++)
         cin>>arr[i];
-    for(int i=0;i<n;i++)
-        cout<<arr[i]<<" ";
-    cout<<endl;
-    n = del(arr,30,n);
+    int x;
+    cin>>x;
+    n = del(arr,n,x);
     for(int i=0;i<n;i++)
         cout<<arr[i]<<" ";
     return 0;

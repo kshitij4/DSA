@@ -11,7 +11,7 @@ int  del(int a[],int n,int x)
     }
     if(i==n)
         return n;
-    for(int j=i;j<n;j++)
+    for(int j=i;j<n-1;j++)
     {
         a[j]=a[j+1];
     }

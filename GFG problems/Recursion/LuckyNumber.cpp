@@ -1,4 +1,4 @@
-//A No is lucky if it is not deleted as part of the process:
+// A No is lucky if it is not deleted as part of the process:
 // The process starts with deletion of every 2nd element , then 3rd and so on.
 # include<bits/stdc++.h>
 

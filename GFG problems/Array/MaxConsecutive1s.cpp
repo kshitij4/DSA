@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int getMax1s(int a[],int n)
+int getMax1s(bool a[],int n)
 {
     int count = 0;
     int maxCount = 0;
@@ -25,7 +25,7 @@ int main()
 {
     int n;
     cin>>n;
-    int arr[n];
+    bool arr[n];
     for(int i=0;i<n;i++)
         cin>>arr[i];
     cout<< getMax1s(arr,n);
